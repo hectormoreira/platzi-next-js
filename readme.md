@@ -8,6 +8,8 @@ Curso de NextJS dictado por [@jonalvarezz](https://twitter.com/jonalvarezz) para
 1. Agrego una ruta básica
 1. Agrego una ruta dinámica
 1. Enlazo páginas y creo una SPA
+1. Agrega nuestra propia API
+1. Páginas usando nuestra propia API
 
 ### 🤖 Guía Rápida
 
@@ -28,3 +30,29 @@ Curso de NextJS dictado por [@jonalvarezz](https://twitter.com/jonalvarezz) para
     El sitio estará disponible en http://localhost:3000.
 
     Happy hacking!
+
+#### Notas
+
+Render
+
+- Document
+  - App
+    - Aplicación / Pages /
+
+## Path alias
+
+En `tsconfig.js`
+
+```json
+"paths": {
+    "@database": ["database/db.ts"],
+    "@cors": ["cors-middleware.ts"],
+    "@components/*": ["components/*"]
+},
+```
+
+## Estilos
+
+- Global CSS (.css)
+- Module CSS (.module.css)
+- CSS-in-JS Styled JSX (NextJs - Vercel)

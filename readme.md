@@ -2,6 +2,10 @@
 
 Curso de NextJS dictado por [@jonalvarezz](https://twitter.com/jonalvarezz) para [Platzi](https://platzi.com)
 
+## Live Demo Vercel
+
+[https://platzi-next-js.vercel.app/](https://platzi-next-js.vercel.app/)
+
 ### 🚀 Logros
 
 1. Creación del proyecto
@@ -80,3 +84,5 @@ En `tsconfig.js`
 - `LCP` Largest Contentful Paint. The Largest Contentful Paint (LCP) metric reports the render time of the largest image or text block visible within the viewport, relative to when the page first started loading.
 
 ## Incremental Static Side Generation
+
+- [https://static-tweet.vercel.app/](https://static-tweet.vercel.app/)

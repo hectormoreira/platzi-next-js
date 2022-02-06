@@ -56,3 +56,15 @@ En `tsconfig.js`
 - Global CSS (.css)
 - Module CSS (.module.css)
 - CSS-in-JS Styled JSX (NextJs - Vercel)
+
+## SSG - Static Site Generated
+
+## getStaticProps y getStaticPaths
+
+- `getStaticProps` para paginas estáticas
+- `getStaticPaths` Debe recibir todas las paginas a generar
+- `fallback: false` incremental static generation, las paginas no enviadas responden 404
+
+## Otras formas de deploy Next.js
+
+- `yarn export` genera todas las paginas estáticas

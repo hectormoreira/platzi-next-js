@@ -68,3 +68,15 @@ En `tsconfig.js`
 ## Otras formas de deploy Next.js
 
 - `yarn export` genera todas las paginas estáticas
+
+## Performance
+
+- `reportWebVital()` genera reporte del performance
+- Unicamente se debe usar en la página `_app.tsx`
+- `Hydration` Tiempo en que el JS de React comienza a funcionar
+- `FCP` First Content Paint
+- `TTFB` Time to first bite, indicador del tiempo en requerir cosas de otro servidor
+- `CLS` Cumulative Layout Shift. CLS is a measure of the largest burst of layout shift scores for every unexpected layout shift that occurs during the entire lifespan of a page.
+- `LCP` Largest Contentful Paint. The Largest Contentful Paint (LCP) metric reports the render time of the largest image or text block visible within the viewport, relative to when the page first started loading.
+
+## Incremental Static Side Generation

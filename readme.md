@@ -86,3 +86,32 @@ En `tsconfig.js`
 ## Incremental Static Side Generation
 
 - [https://static-tweet.vercel.app/](https://static-tweet.vercel.app/)
+
+## Comandos
+
+- `yarn upgrade-interactive --latest` ver actualizaciones disponibles
+
+# Next.js 10
+
+- Next Images, disponible desde la versión 10, caracteristica más notable
+- `lazy loading` usando `import Image from 'next/image'`
+- Soporte a Webpack 5
+- Soporte a React 17
+- Ajuste al API del componente `Link`
+- Crear proxis usando el server de Next
+  - ya no es necesario especificar parametros en el href
+  - Antes : `<Link key={id} href="/product/[id]" as={`/product/\${id}`} passHref>`
+  - Ahora : `<Link key={id} href={`/product/\${id}`} passHref>`
+- `rewrite`
+  ```js
+  module.exports = {
+    async rewrites() {
+      return [
+        {
+          source: '/avocado/:path*',
+          destination: '/product/:path*', //wildcars regex
+        },
+      ]
+    },
+  }
+  ```
